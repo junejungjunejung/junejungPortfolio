@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <filter id="Ellipse_229" x="40" y="970" width="82" height="82" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="1" y1="0.051" x2="-0.014" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#abd48d"/>
+      <stop offset="1" stop-color="#41bbc0"/>
+    </linearGradient>
+    <filter id="Rectangle_766" x="124" y="970" width="218" height="82" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.278"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Web_1920_6">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_6" data-name="Web 1920 – 6" clip-path="url(#clip-Web_1920_6)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <rect id="Rectangle_733" data-name="Rectangle 733" width="416" height="1080" fill="#f39b90"/>
+    <rect id="Rectangle_26" data-name="Rectangle 26" width="418" height="80" transform="translate(0 440)" fill="#fff"/>
+    <rect id="Rectangle_734" data-name="Rectangle 734" width="10" height="80" transform="translate(0 440)" fill="#002942"/>
+    <text id="REPORTS" transform="translate(554 122)" fill="#ef7667" font-size="24" font-family="Saira-SemiBold, Saira" font-weight="600"><tspan x="0" y="0">REPORTS</tspan></text>
+    <g id="Group_415" data-name="Group 415" transform="translate(51.5 -1.604)">
+      <g id="Group_2" data-name="Group 2" transform="translate(502.5 41.604)">
+        <path id="Stroke_364" data-name="Stroke 364" d="M36,0H0" transform="translate(0 12.5)" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4"/>
+        <path id="Stroke_365" data-name="Stroke 365" d="M12.773,25,0,12.5,12.773,0" fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4"/>
+      </g>
+    </g>
+    <rect id="Rectangle_1512" data-name="Rectangle 1512" width="1286" height="80" rx="10" transform="translate(524 221)" fill="#f6f6f6"/>
+    <rect id="Rectangle_1519" data-name="Rectangle 1519" width="1286" height="80" rx="10" transform="translate(524 581)" fill="#fff"/>
+    <rect id="Rectangle_1515" data-name="Rectangle 1515" width="1286" height="80" rx="10" transform="translate(524 401)" fill="#f6f6f6"/>
+    <rect id="Rectangle_1517" data-name="Rectangle 1517" width="1286" height="80" rx="10" transform="translate(524 761)" fill="#f6f6f6"/>
+    <rect id="Rectangle_1513" data-name="Rectangle 1513" width="1286" height="80" rx="10" transform="translate(524 311)" fill="#f6f6f6"/>
+    <rect id="Rectangle_1518" data-name="Rectangle 1518" width="1286" height="80" rx="10" transform="translate(524 671)" fill="#f6f6f6"/>
+    <rect id="Rectangle_1514" data-name="Rectangle 1514" width="1286" height="80" rx="10" transform="translate(524 491)" fill="#f6f6f6"/>
+    <rect id="Rectangle_1516" data-name="Rectangle 1516" width="1286" height="80" rx="10" transform="translate(524 851)" fill="#f6f6f6"/>
+    <rect id="Rectangle_1520" data-name="Rectangle 1520" width="1286" height="80" rx="10" transform="translate(524 941)" fill="#f6f6f6"/>
+    <text id="Report_time" data-name="Report time" transform="translate(554 190)" fill="#41bbc0" font-size="24" font-family="Saira-SemiBold, Saira" font-weight="600"><tspan x="0" y="0">Report time</tspan></text>
+    <text id="Property_Name" data-name="Property Name" transform="translate(844 190)" fill="#41bbc0" font-size="24" font-family="Saira-SemiBold, Saira" font-weight="600"><tspan x="0" y="0">Property Name</tspan></text>
+    <text id="Inspection_date" data-name="Inspection date" transform="translate(1116 190)" fill="#41bbc0" font-size="24" font-family="Saira-SemiBold, Saira" font-weight="600"><tspan x="0" y="0">Inspection date</tspan></text>
+    <text id="Tenant" transform="translate(1382 190)" fill="#41bbc0" font-size="24" font-family="Saira-SemiBold, Saira" font-weight="600"><tspan x="0" y="0">Tenant</tspan></text>
+    <text id="Status" transform="translate(1658 190)" fill="#41bbc0" font-size="24" font-family="Saira-SemiBold, Saira" font-weight="600"><tspan x="0" y="0">Status</tspan></text>
+    <text id="_8:00_pm_-_6th_Oct" data-name="8:00 pm - 6th Oct" transform="translate(554 270)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">8:00 pm</tspan><tspan y="0" xml:space="preserve" font-family="Montserrat-Regular, Montserrat" font-weight="400"> - 6th Oct</tspan></text>
+    <text id="_8:00_pm_-_6th_Sept" data-name="8:00 pm - 6th Sept" transform="translate(554 630)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">8:00 pm</tspan><tspan y="0" xml:space="preserve" font-family="Montserrat-Regular, Montserrat" font-weight="400"> - 6th Sept</tspan></text>
+    <text id="_7:00_am_-_4th_Oct" data-name="7:00 am - 4th Oct" transform="translate(554 450)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">7:00 am</tspan><tspan y="0" xml:space="preserve" font-family="Montserrat-Regular, Montserrat" font-weight="400"> - 4th Oct</tspan></text>
+    <text id="_7:00_am_-_4th_Sept" data-name="7:00 am - 4th Sept" transform="translate(554 810)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">7:00 am</tspan><tspan y="0" xml:space="preserve" font-family="Montserrat-Regular, Montserrat" font-weight="400"> - 4th Sept</tspan></text>
+    <text id="_6:00_pm_-_5th_Oct" data-name="6:00 pm - 5th Oct" transform="translate(554 360)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">6:00 pm</tspan><tspan y="0" xml:space="preserve" font-family="Montserrat-Regular, Montserrat" font-weight="400"> - 5th Oct</tspan></text>
+    <text id="_6:00_pm_-_5th_Sept" data-name="6:00 pm - 5th Sept" transform="translate(554 720)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">6:00 pm</tspan><tspan y="0" xml:space="preserve" font-family="Montserrat-Regular, Montserrat" font-weight="400"> - 5th Sept</tspan></text>
+    <text id="_10:00_am_-_3rd_Oct" data-name="10:00 am - 3rd Oct" transform="translate(554 540)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">10:00 am</tspan><tspan y="0" xml:space="preserve" font-family="Montserrat-Regular, Montserrat" font-weight="400"> - 3rd Oct</tspan></text>
+    <text id="_10:00_am_-_3rd_Aug" data-name="10:00 am - 3rd Aug" transform="translate(554 900)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">10:00 am</tspan><tspan y="0" xml:space="preserve" font-family="Montserrat-Regular, Montserrat" font-weight="400"> - 3rd Aug</tspan></text>
+    <text id="_10:00_am_-_2nd_Aug" data-name="10:00 am - 2nd Aug" transform="translate(554 990)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">10:00 am</tspan><tspan y="0" xml:space="preserve" font-family="Montserrat-Regular, Montserrat" font-weight="400"> - 2nd Aug</tspan></text>
+    <text id="Nela_Mansion" data-name="Nela Mansion" transform="translate(844 270)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Nela Mansion</tspan></text>
+    <text id="Nela_Mansion-2" data-name="Nela Mansion" transform="translate(844 630)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Nela Mansion</tspan></text>
+    <text id="Nela_Mansion-3" data-name="Nela Mansion" transform="translate(844 450)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Nela Mansion</tspan></text>
+    <text id="Nela_Mansion-4" data-name="Nela Mansion" transform="translate(844 810)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Nela Mansion</tspan></text>
+    <text id="André_Cottage" data-name="André Cottage" transform="translate(844 360)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">André Cottage</tspan></text>
+    <text id="André_Cottage-2" data-name="André Cottage" transform="translate(844 720)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">André Cottage</tspan></text>
+    <text id="Nela_Mansion-5" data-name="Nela Mansion" transform="translate(844 540)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Nela Mansion</tspan></text>
+    <text id="Nela_Mansion-6" data-name="Nela Mansion" transform="translate(844 900)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Nela Mansion</tspan></text>
+    <text id="Nela_Mansion-7" data-name="Nela Mansion" transform="translate(844 990)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Nela Mansion</tspan></text>
+    <text id="_6th_Oct" data-name="6th Oct" transform="translate(1116 270)" fill="#002942" font-size="24" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">6th Oct</tspan></text>
+    <text id="_6th_Sept" data-name="6th Sept" transform="translate(1116 630)" fill="#002942" font-size="24" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">6th Sept</tspan></text>
+    <text id="_3rd_Oct" data-name="3rd Oct" transform="translate(1116 450)" fill="#002942" font-size="24" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">3rd Oct</tspan></text>
+    <text id="_3th_Sept" data-name="3th Sept" transform="translate(1116 810)" fill="#002942" font-size="24" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">3th Sept</tspan></text>
+    <text id="_4th_Oct" data-name="4th Oct" transform="translate(1116 360)" fill="#002942" font-size="24" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">4th Oct</tspan></text>
+    <text id="_4th_Sept" data-name="4th Sept" transform="translate(1116 720)" fill="#002942" font-size="24" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">4th Sept</tspan></text>
+    <text id="_2nd_Oct" data-name="2nd Oct" transform="translate(1116 540)" fill="#002942" font-size="24" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">2nd Oct</tspan></text>
+    <text id="_3rd_Aug" data-name="3rd Aug" transform="translate(1116 900)" fill="#002942" font-size="24" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">3rd Aug</tspan></text>
+    <text id="_2nd_Aug" data-name="2nd Aug" transform="translate(1116 990)" fill="#002942" font-size="24" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">2nd Aug</tspan></text>
+    <text id="Nghiep_Nguyen" data-name="Nghiep Nguyen" transform="translate(1382 270)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Nghiep Nguyen</tspan></text>
+    <text id="Nghiep_Nguyen-2" data-name="Nghiep Nguyen" transform="translate(1382 630)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Nghiep Nguyen</tspan></text>
+    <text id="Nghiep_Nguyen-3" data-name="Nghiep Nguyen" transform="translate(1382 450)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Nghiep Nguyen</tspan></text>
+    <text id="Nghiep_Nguyen-4" data-name="Nghiep Nguyen" transform="translate(1382 810)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Nghiep Nguyen</tspan></text>
+    <text id="Thanh_Nguyen" data-name="Thanh Nguyen" transform="translate(1382 360)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Thanh Nguyen</tspan></text>
+    <text id="Thanh_Nguyen-2" data-name="Thanh Nguyen" transform="translate(1382 720)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Thanh Nguyen</tspan></text>
+    <text id="June_Jung" data-name="June Jung" transform="translate(1382 540)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">June Jung</tspan></text>
+    <text id="June_Jung-2" data-name="June Jung" transform="translate(1382 900)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">June Jung</tspan></text>
+    <text id="June_Jung-3" data-name="June Jung" transform="translate(1382 990)" fill="#002942" font-size="24" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">June Jung</tspan></text>
+    <text id="Signed" transform="translate(1658 270)" fill="#002942" font-size="24" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Signed</tspan></text>
+    <text id="Signed-2" data-name="Signed" transform="translate(1658 630)" fill="#002942" font-size="24" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Signed</tspan></text>
+    <text id="Signed-3" data-name="Signed" transform="translate(1658 450)" fill="#002942" font-size="24" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Signed</tspan></text>
+    <text id="Signed-4" data-name="Signed" transform="translate(1658 810)" fill="#002942" font-size="24" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Signed</tspan></text>
+    <text id="Pending" transform="translate(1658 360)" fill="#002942" font-size="24" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Pending</tspan></text>
+    <text id="Pending-2" data-name="Pending" transform="translate(1658 720)" fill="#002942" font-size="24" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Pending</tspan></text>
+    <text id="Signed-5" data-name="Signed" transform="translate(1658 540)" fill="#002942" font-size="24" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Signed</tspan></text>
+    <text id="Signed-6" data-name="Signed" transform="translate(1658 900)" fill="#002942" font-size="24" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Signed</tspan></text>
+    <text id="Signed-7" data-name="Signed" transform="translate(1658 990)" fill="#002942" font-size="24" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Signed</tspan></text>
+    <g id="Group_416" data-name="Group 416" transform="translate(-3.617 -16)">
+      <path id="Stroke_357" data-name="Stroke 357" d="M0,0H12.285" transform="translate(1801.333 119.095)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Stroke_358" data-name="Stroke 358" d="M0,0H4.095" transform="translate(1783.617 119.095)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Stroke_359" data-name="Stroke 359" d="M0,0H1.365" transform="translate(1812.252 130)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Stroke_360" data-name="Stroke 360" d="M0,0H15.015" transform="translate(1783.617 130)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Stroke_361" data-name="Stroke 361" d="M0,0H12.285" transform="translate(1801.333 140.905)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Stroke_362" data-name="Stroke 362" d="M0,0H4.095" transform="translate(1783.617 140.905)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Stroke_363" data-name="Stroke 363" d="M4.095,0A4.095,4.095,0,1,1,0,4.095,4.095,4.095,0,0,1,4.095,0Z" transform="translate(1787.712 115)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Stroke_364-2" data-name="Stroke 364" d="M4.095,0A4.095,4.095,0,1,1,0,4.095,4.095,4.095,0,0,1,4.095,0Z" transform="translate(1798.612 125.905)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Stroke_365-2" data-name="Stroke 365" d="M4.095,0A4.095,4.095,0,1,1,0,4.095,4.095,4.095,0,0,1,4.095,0Z" transform="translate(1787.712 136.81)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+    <path id="Union_1" data-name="Union 1" d="M-3486.755,60.136a21.2,21.2,0,0,1-2-4.1c0-.012-.008-.023-.013-.035l0-.007a5.271,5.271,0,0,1-.012-3.543,5.261,5.261,0,0,1,6.715-3.223,5.263,5.263,0,0,1,3.172,3.111c.014.038.028.076.041.113s.035.1.051.15a10.629,10.629,0,0,0,.929,1.887,10.514,10.514,0,0,0,14.506,3.369,10.505,10.505,0,0,0,4.335-5.393l.005-.014c.014-.04.03-.081.043-.122a5.276,5.276,0,0,1,1.22-1.895,5.255,5.255,0,0,1,7.445.027,5.287,5.287,0,0,1,1.311,5.221c-.031.107-.067.213-.106.319-.024.067-.05.135-.078.2a21.007,21.007,0,0,1-8.529,10.546,20.916,20.916,0,0,1-11.2,3.25A21.027,21.027,0,0,1-3486.755,60.136Zm29.888-18.238h0l-2.242-2.222a20.972,20.972,0,0,1-12.387,2.246l-.264-.034-.154-.023a20.988,20.988,0,0,1-7.271-2.45,21.023,21.023,0,0,1-8.149-28.614A21.074,21.074,0,0,1-3463.5.713c.063.016.125.034.188.052l.233.065a20.989,20.989,0,0,1,12.656,10.11,18.4,18.4,0,0,1,1.956,5.036l.071.365a5.26,5.26,0,0,1-3.963,6.3,5.264,5.264,0,0,1-6.3-3.959h0a10.51,10.51,0,0,0-1.032-2.718,10.531,10.531,0,0,0-1.49-2.074c-.106-.091-.211-.185-.311-.284h0a10.519,10.519,0,0,0-2.32-1.751,10.535,10.535,0,0,0-14.319,4.065l-.009.016q-.109.2-.209.4c-.031.063-.062.125-.092.189s-.067.142-.1.213c-.053.121-.106.241-.155.364a.271.271,0,0,1-.012.028,10.49,10.49,0,0,0,.549,8.944,10.534,10.534,0,0,0,14.293,4.17,10.544,10.544,0,0,0,1.948-1.408,5.321,5.321,0,0,1,7.418.563c.047.053.092.109.137.164l4.942,4.9h0c.079.079.157.16.231.245a5.255,5.255,0,0,1-.476,7.422,5.245,5.245,0,0,1-3.473,1.31A5.254,5.254,0,0,1-3456.867,41.9Zm113.478-7.887a21.056,21.056,0,0,1,3.665-29.552,21.065,21.065,0,0,1,25.013-.652l.014.011c.077.054.155.11.232.166a8.756,8.756,0,0,1,1.744,1.692,8.728,8.728,0,0,1,1.728,3.925,8.786,8.786,0,0,1-1.659,6.764,8.782,8.782,0,0,1-1.6,1.623l-.062.049-2.071,1.613-7.159,5.573a5.264,5.264,0,0,1-7.618-1.239,5.33,5.33,0,0,1,1.232-7.133l2.426-1.888,4.2-3.271a.349.349,0,0,0-.1-.606,10.566,10.566,0,0,0-5-.453,10.485,10.485,0,0,0-5.3,2.443,10.565,10.565,0,0,0-1.663,14.11,10.528,10.528,0,0,0,15.02,2.16l.008-.007.03.038a5.264,5.264,0,0,1,7.449,1,5.342,5.342,0,0,1-.98,7.305l0,0,0,0a20.968,20.968,0,0,1-12.918,4.44A21.02,21.02,0,0,1-3343.388,34.011Zm-76.973,8.1a21.056,21.056,0,0,1-21.019-21.1A21.056,21.056,0,0,1-3420.285,0a21.057,21.057,0,0,1,21.019,21.1,21.055,21.055,0,0,1-21.055,21.019Zm-10.507-21.124a10.528,10.528,0,0,0,10.509,10.548,10.528,10.528,0,0,0,10.548-10.509,10.528,10.528,0,0,0-10.509-10.547h-.02A10.528,10.528,0,0,0-3430.868,20.99Zm133.149,20.855a5.265,5.265,0,0,1-3.6-4.995V28.634q-.012-.566,0-1.129V5.264A5.264,5.264,0,0,1-3296.059,0a5.265,5.265,0,0,1,5.264,5.264v.888a28,28,0,0,1,8.876-4.779l.094-.03v.01a5.263,5.263,0,0,1,6.566,3.4,5.262,5.262,0,0,1-3.178,6.561c-.057.022-.114.042-.173.061l-.03.011c-.074.023-.148.045-.223.066A17.556,17.556,0,0,0-3290.8,27.728q-.007.351,0,.7V36.85a5.265,5.265,0,0,1-5.264,5.264A5.248,5.248,0,0,1-3297.72,41.845Zm-80.358-1.428a7.038,7.038,0,0,1-1.8-2.39l-.834-1.761-12.868-27.686-.662-1.522a5.3,5.3,0,0,1-.3-2.244,5.285,5.285,0,0,1,5.008-4.808,5.262,5.262,0,0,1,4.83,2.683h0l.32.688,10.613,22.763a.294.294,0,0,0,.533,0l10.8-23.214.006,0a5.265,5.265,0,0,1,4.7-2.928,5.3,5.3,0,0,1,5.273,5.024,5.255,5.255,0,0,1-.612,2.714l-13.227,28.527-.807,1.7a7.026,7.026,0,0,1-1.844,2.468,7,7,0,0,1-4.565,1.677A6.987,6.987,0,0,1-3378.078,40.416Z" transform="translate(3590 80)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+    <text id="Dashboard" transform="translate(110 248)" fill="#002942" font-size="24" font-family="Saira-SemiBold, Saira" font-weight="600"><tspan x="0" y="0">Dashboard</tspan></text>
+    <text id="Inspection" transform="translate(110 408)" fill="#002942" font-size="24" font-family="Saira-SemiBold, Saira" font-weight="600"><tspan x="0" y="0">Inspection</tspan></text>
+    <text id="Properties" transform="translate(110 328)" fill="#002942" font-size="24" font-family="Saira-SemiBold, Saira" font-weight="600"><tspan x="0" y="0">Properties</tspan></text>
+    <text id="Reports-2" data-name="Reports" transform="translate(110 488)" fill="#002942" font-size="24" font-family="Saira-SemiBold, Saira" font-weight="600"><tspan x="0" y="0">Reports</tspan></text>
+    <g id="Group_406" data-name="Group 406" transform="translate(-2.5 9.117)">
+      <path id="Stroke_181" data-name="Stroke 181" d="M18,0h4V20H0V0H4" transform="translate(49.5 219.883)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+      <path id="Stroke_182" data-name="Stroke 182" d="M0,0H15.649" transform="translate(52.774 219.883)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+      <path id="Stroke_185" data-name="Stroke 185" d="M0,0H22" transform="translate(49.5 225.883)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+    </g>
+    <g id="Group_407" data-name="Group 407" transform="translate(-2.5 28.117)">
+      <path id="Stroke_307" data-name="Stroke 307" d="M0,0V13.277H6.273V8.05h4.182v5.227h6.273V0" transform="translate(52.636 287.606)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+      <path id="Stroke_308" data-name="Stroke 308" d="M0,10.455,11.5,0,23,10.455" transform="translate(49.5 279.883)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+      <path id="Stroke_309" data-name="Stroke 309" d="M0,0H4.182V4.182H0Z" transform="translate(58.909 287.241)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+    </g>
+    <g id="Group_409" data-name="Group 409" transform="translate(-3.5 31.119)">
+      <path id="Stroke_2199" data-name="Stroke 2199" d="M0,6V0H6" transform="translate(64.5 453.881)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Stroke_2200" data-name="Stroke 2200" d="M12,22H0V0H18V16l-6,6Z" transform="translate(52.5 437.881)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+      <path id="Stroke_2202" data-name="Stroke 2202" d="M0,0H10" transform="translate(56.5 442.881)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+      <path id="Stroke_2203" data-name="Stroke 2203" d="M0,0H10" transform="translate(56.5 447.881)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+      <path id="Stroke_2204" data-name="Stroke 2204" d="M0,0H4" transform="translate(56.5 452.881)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+    </g>
+    <g id="Group_408" data-name="Group 408" transform="translate(-4.5 51.117)">
+      <path id="Stroke_554" data-name="Stroke 554" d="M0,5.591V0H5.591" transform="translate(52.5 339.883)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+      <path id="Stroke_555" data-name="Stroke 555" d="M0,0H5.591V5.591" transform="translate(66.909 339.883)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+      <path id="Stroke_556" data-name="Stroke 556" d="M5.591,0V5.591H0" transform="translate(66.909 354.292)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+      <path id="Stroke_557" data-name="Stroke 557" d="M5.591,5.591H0V0" transform="translate(52.5 354.292)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+      <path id="Stroke_558" data-name="Stroke 558" d="M0,0H9.318V5.591H0Z" transform="translate(57.841 347.087)" fill="none" stroke="#002942" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Ellipse_229)">
+      <circle id="Ellipse_229-2" data-name="Ellipse 229" cx="32" cy="32" r="32" transform="translate(49 976)" fill="#002942"/>
+    </g>
+    <g id="Group_410" data-name="Group 410" transform="translate(-3275.807 141.117)">
+      <path id="Stroke_5736" data-name="Stroke 5736" d="M8.667,0,1.262,4.62A2.723,2.723,0,0,0,0,6.935v3.871H26V6.935A2.723,2.723,0,0,0,24.738,4.62L17.326,0" transform="translate(3343.807 871.076)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3.5"/>
+      <path id="Stroke_5740" data-name="Stroke 5740" d="M7.6,20.255h0a7.862,7.862,0,0,1-7.6-8.1V8.1A7.862,7.862,0,0,1,7.6,0a7.862,7.862,0,0,1,7.6,8.1v4.051a7.862,7.862,0,0,1-7.6,8.1Z" transform="translate(3349.209 851.883)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3.5"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_766)">
+      <rect id="Rectangle_766-2" data-name="Rectangle 766" width="200" height="64" rx="32" transform="translate(133 976)" fill="url(#linear-gradient)"/>
+    </g>
+    <text id="logout" transform="translate(173 1016)" fill="#fff" font-size="24" font-family="Saira-SemiBold, Saira" font-weight="600"><tspan x="0" y="0">logout</tspan></text>
+    <g id="Group_414" data-name="Group 414" transform="translate(190.5 -184.883)">
+      <path id="Stroke_18" data-name="Stroke 18" d="M6.542,0V5.234H0" transform="translate(93.888 1195.16)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Stroke_20" data-name="Stroke 20" d="M0,0,9.159,6.5V26L0,19.5V0H15.7V10.4" transform="translate(84.5 1180.883)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Stroke_22" data-name="Stroke 22" d="M0,0H14.393" transform="translate(98.107 1191.283)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Stroke_24" data-name="Stroke 24" d="M0,0,5.234,5.234,0,10.467" transform="translate(107.266 1186.06)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+    <line id="Line_5" data-name="Line 5" x2="416" transform="translate(0 360)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="0.5"/>
+    <line id="Line_12" data-name="Line 12" x2="416" transform="translate(0 280)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="0.5"/>
+    <line id="Line_13" data-name="Line 13" x2="416" transform="translate(0 200)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="0.5"/>
+    <line id="Line_6" data-name="Line 6" x2="416" transform="translate(0 440)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="0.5"/>
+    <line id="Line_7" data-name="Line 7" x2="416" transform="translate(0 520)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="0.5"/>
+  </g>
+</svg>
