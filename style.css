@@ -1,30 +1,95 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans:700|Roboto:400,700&display=swap');
 
-
-
-/* typography */
-
+/* typography: general --------------- */
 *{
   font-family: 'Roboto', sans-serif;
+  color: #002B7F;
+  letter-spacing: 0.2em;
 }
-
 h1{
   font-family: 'Noto Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+h2{
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* typography: nav */
+.navbar{
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+ul.nav-container li{
+  list-style: none;
+}
+
+ul.nav-container li a{
+  text-decoration: none;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 30px;
   font-weight: 700;
   color: #5EC1E5;
 }
 
-.project-header{
+ul.nav-container li a:hover{
   color: #002B7F;
 }
 
+/* typography: landing page */
+.branding-container .decription h1{
+  color: #5EC1E5;
+}
+
+.branding-container .decription p{
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.project-header{
+  background-color: #B2FCE9;
+}
+
+.project-body{
+  background-color: #FFFFFF;
+}
+
+.contact-container p{
+  font-size: 18px;
+}
+
+/* typography: contact page */
+input, textarea{
+  font-size: 13px; 
+  color: #002B7F;
+}
+
+input::placeholder, textarea::placeholder{
+  font-size: 13px; 
+  color: #002B7F;
+}
+
+button{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+/* general styling --------------- */
+body{
+  margin: 0;
+}
+
 /* work page */
+.project-list{
+  background-color: rgba(255, 255, 255, 0.6);
+}
 
 .carousel-container .carousel-item img {
   border-radius: 10px;
   width: 400px;
 }
-
 .dot {
   cursor: pointer;
   height: 15px;
@@ -35,18 +100,46 @@ h1{
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
 .active, .dot:hover {
   background-color: #717171;
 }
 
+/* contact page */
+input{
+  border: 1px solid #002B7F;
+  border-radius: 5px;
+  height: 50px;
+}
 
+textarea{
+  border: 1px solid #002B7F;
+  border-radius: 5px;
+  resize: none;
+}
 
+button{
+  background-color: #5EC1E5;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+}
 
+/* web view styling --------------- */
+@media screen and (min-width: 700px) {
+  .nav-item a{
+    font-size: 18px;
+  }
+}
 
+/* background image --------------- */
+main {
+  background-image: url("asset/bgi-web.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #FFFFFF;
+}
 
-
-/* image */
+/* responsive image */
 img {
   max-width: 100%;
   height: auto;
