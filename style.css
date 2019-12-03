@@ -5,6 +5,7 @@
   font-family: 'Roboto', sans-serif;
   color: #002B7F;
   letter-spacing: 0.2em;
+  line-height: 1.8;
 }
 h1{
   font-family: 'Noto Sans', sans-serif;
@@ -81,6 +82,96 @@ body{
   margin: 0;
 }
 
+/* navbar */
+.nav-header{
+  display: flex;
+  justify-content: space-between;
+  margin: .5rem;
+  padding: 1.5rem;
+}
+
+.logo-container, .hamburger{
+  align-self: center;
+}
+
+/* footer */
+footer{
+  width: 80%;
+  margin: auto; 
+  text-align: center;
+  padding: 2rem;
+}
+
+footer p{
+  padding: .5rem; 
+}
+
+/* landing page */
+.branding-container{
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.branding-container .decription h1{
+  margin-bottom: 4rem;
+}
+
+.branding-container .decription p{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 3rem;
+  padding: 1rem;
+}
+
+.social-container{
+  display: flex;
+  justify-content: center;
+}
+
+.social-container .social-item{
+ margin: 1rem;
+}
+
+.project-container .project-header{
+  margin: 4rem 0 2rem 0;
+  padding: .75rem;
+  width: 220px;
+}
+
+.project-container .project-header h1{
+  text-align: center;
+}
+
+.project-container .project-body{
+  margin-left: 2rem;
+  padding: 1rem;
+}
+
+.project-container .project-body .project-item{
+  padding: .25rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.project-container .project-body .project-item .project-name{
+  display: flex;
+}
+
+.project-container .project-body .project-item .project-name p{
+  margin-right: 1rem;
+}
+
+.project-container .project-body .project-item .description{
+  margin: auto;
+  padding: 1.5rem;
+}
+
+.contact-container{
+  text-align: center;
+  margin: auto;
+  padding: 7rem 0;
+  width: 80%;
+}
+
 /* work page */
 .project-list{
   background-color: rgba(255, 255, 255, 0.6);
@@ -104,24 +195,94 @@ body{
   background-color: #717171;
 }
 
+/* about page */
+.profile-container{
+  width: 80%;
+  margin: auto;
+}
+
+.profile-container .headline{
+  margin: 2rem 0;
+}
+
+.profile-img{
+  width: 80%;
+  margin: auto;
+}
+
+.profile-container .description{
+  padding: 2rem 0;
+}
+
 /* contact page */
+form{
+  text-align: center;
+}
+
+.form-container{
+  margin: auto;
+}
+
+.form-container h1{
+  margin: 2rem 0;
+  text-align: center;
+}
+
 input{
   border: 1px solid #002B7F;
   border-radius: 5px;
   height: 50px;
+  padding: 0 1rem;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1rem;
 }
 
 textarea{
   border: 1px solid #002B7F;
   border-radius: 5px;
   resize: none;
+  padding: 1rem;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1rem;
 }
 
 button{
+  border: 1px solid #5EC1E5;
   background-color: #5EC1E5;
-  border: none;
   border-radius: 5px;
   height: 50px;
+  width: 80%;
+  margin: auto;
+}
+
+.other-contact{
+  width: 80%;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.other-contact .social{
+  display: flex;
+}
+
+.other-contact p:first-child{
+  margin: 3rem 0 0 0;
+}
+
+.social-contacts{
+  display: flex;
+}
+
+.social-contacts div{
+  align-self: center;
+  padding-top:.5rem;
+  padding-right: .25rem;
+}
+
+.social-handle{
+  margin-left: .5rem;
 }
 
 /* web view styling --------------- */
