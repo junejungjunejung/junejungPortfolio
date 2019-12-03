@@ -90,6 +90,10 @@ body{
   padding: 1.5rem;
 }
 
+.logo-container, .hamburger{
+  align-self: center;
+}
+
 /* footer */
 footer{
   width: 80%;
@@ -191,24 +195,94 @@ footer p{
   background-color: #717171;
 }
 
+/* about page */
+.profile-container{
+  width: 80%;
+  margin: auto;
+}
+
+.profile-container .headline{
+  margin: 2rem 0;
+}
+
+.profile-img{
+  width: 80%;
+  margin: auto;
+}
+
+.profile-container .description{
+  padding: 2rem 0;
+}
+
 /* contact page */
+form{
+  text-align: center;
+}
+
+.form-container{
+  margin: auto;
+}
+
+.form-container h1{
+  margin: 2rem 0;
+  text-align: center;
+}
+
 input{
   border: 1px solid #002B7F;
   border-radius: 5px;
   height: 50px;
+  padding: 0 1rem;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1rem;
 }
 
 textarea{
   border: 1px solid #002B7F;
   border-radius: 5px;
   resize: none;
+  padding: 1rem;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1rem;
 }
 
 button{
+  border: 1px solid #5EC1E5;
   background-color: #5EC1E5;
-  border: none;
   border-radius: 5px;
   height: 50px;
+  width: 80%;
+  margin: auto;
+}
+
+.other-contact{
+  width: 80%;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.other-contact .social{
+  display: flex;
+}
+
+.other-contact p:first-child{
+  margin: 3rem 0 0 0;
+}
+
+.social-contacts{
+  display: flex;
+}
+
+.social-contacts div{
+  align-self: center;
+  padding-top:.5rem;
+  padding-right: .25rem;
+}
+
+.social-handle{
+  margin-left: .5rem;
 }
 
 /* web view styling --------------- */
