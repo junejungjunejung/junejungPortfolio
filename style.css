@@ -214,6 +214,16 @@ main{
   margin: 0;
 }
 
+/* work: accordion */
+.panel{
+  display: none;
+}
+
+.active:first-child{
+ background-color: transparent;
+}
+
+/* work: carousel */
 .carousel-container .carousel-item img {
   border-radius: 10px;
   width: 400px;
