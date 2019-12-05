@@ -165,6 +165,11 @@ footer p{
   padding: 1.5rem;
 }
 
+.project-container .project-body a p{
+  text-align: right;
+  padding-right: 1rem;
+}
+
 .contact-container{
   text-align: center;
   margin: auto;
@@ -187,11 +192,12 @@ main{
 }
 .work-container p{
   margin-top: 0;
+  padding-bottom: 2rem;
 }
 
 .project-list{
   background-color: rgba(255, 255, 255, 0.6);
-  padding-top: 2rem;
+  padding: .5rem 2rem;
 }
 
 .item{
@@ -213,6 +219,10 @@ main{
   align-self: center;
   margin: 0;
 }
+.project-list .item .panel a p{
+  text-align: right;
+  padding-right: 1rem;
+}
 
 /* work: accordion */
 .panel{
@@ -224,6 +234,10 @@ main{
 }
 
 /* work: carousel */
+.carousel-item1, .carousel-item2, .carousel-item3,{
+  display: none;
+}
+
 .carousel-container .carousel-item img {
   border-radius: 10px;
   width: 400px;
