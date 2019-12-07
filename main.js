@@ -1,3 +1,23 @@
+// hamburger menu
+function menubar() {
+  var x = document.getElementById("navLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+// showing logo when hamburger active on landing page
+function landingLogo() {
+  var x = document.getElementById("landingLogo");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
 // accordion
 var acc = document.getElementsByClassName("accordion");
 var i;

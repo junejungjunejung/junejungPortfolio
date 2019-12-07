@@ -83,6 +83,10 @@ body{
 }
 
 /* navbar */
+#landingLogo{
+  display: none;
+}
+
 .nav-header{
   display: flex;
   justify-content: space-between;
@@ -92,6 +96,14 @@ body{
 
 .logo-container, .hamburger{
   align-self: center;
+}
+
+.logo-container{
+  height: 57px;
+}
+
+.nav-container{
+  display: none;
 }
 
 /* footer */
