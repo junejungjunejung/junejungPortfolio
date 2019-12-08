@@ -39,12 +39,8 @@ ul.nav-container li a:hover{
 }
 
 /* typography: landing page */
-.branding-container .decription h1{
+.branding-container .description h1{
   color: #5EC1E5;
-}
-
-.branding-container .decription p{
-  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .project-header{
@@ -124,15 +120,16 @@ footer p{
   text-align: center;
 }
 
-.branding-container .decription h1{
+.branding-container .description h1{
   margin-bottom: 4rem;
 }
 
-.branding-container .decription p{
+.branding-container .description p{
   width: 80%;
   margin: auto;
   margin-bottom: 3rem;
   padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .social-container{
@@ -187,6 +184,10 @@ footer p{
   margin: auto;
   padding: 7rem 0;
   width: 80%;
+}
+
+.contact-container p:last-of-type{
+  display: none;
 }
 
 /* work page */
@@ -246,7 +247,7 @@ main{
 }
 
 /* work: carousel */
-.carousel-item1, .carousel-item2, .carousel-item3,{
+.carousel-item1, .carousel-item2, .carousel-item3{
   display: none;
 }
 
@@ -364,8 +365,138 @@ button{
 
 /* web view styling --------------- */
 @media screen and (min-width: 700px) {
-  .nav-item a{
+  /* typhography */
+  /* navbar */
+  #navLinks li.nav-item a{
+    font-family: 'Roboto', sans-serif;
+    color: #002B7F;
+    font-weight: 400;
     font-size: 18px;
+  }
+  /* footer */
+  footer p:first-of-type{
+    font-size: 13px;
+    margin: auto 0;
+  }
+  footer p:last-of-type{
+    font-size: 15px;
+  }
+  /* landing page */
+  .contact-container p:last-of-type{
+    font-size: 15px;
+  }
+
+
+  /* general styling */
+  /* navbar */
+  #landingLogo{
+    display: block;
+  }
+
+  .nav-container{
+    display: inherit;
+  }
+
+  .hamburger{
+    display: none;
+  }
+
+  #home{
+    display: none;
+  }
+
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-item{
+    margin: auto;
+    padding-right: 2rem;
+  }
+
+  .nav-item a:hover{
+    border-bottom: solid 2px #002B7F;
+  }
+
+  /* footer */
+  footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  /* landing page */
+  .web-layout{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr 1fr;
+  }
+
+  .branding-container{
+    margin: 0;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    justify-self: start;
+    align-self: center;
+    text-align: left;
+  }
+
+  .description{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: .5rem;
+  }
+
+  .branding-container .description h1{
+    margin: 0;
+  }
+
+  .branding-container .description p{
+    margin: .75rem 0;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .social-container{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    justify-self: start;
+    align-self: center;
+
+    flex-flow: column nowrap;
+    padding-left: 1.5rem;
+  }
+
+  .brand-logo{
+    display: none;
+  }
+
+
+  .project-container{
+    display:grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 10% 90%;
+  }
+  .project-header{
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+  .project-container .project-body{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin-left: 0;
+  }
+
+
+  .contact-container{
+    margin-left: 2rem;
+    text-align: left;
+    width: 30%;
+  }
+
+  .contact-container p:last-of-type{
+    display: inline-block;
+    margin-left: .5rem;
   }
 }
 
