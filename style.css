@@ -275,6 +275,8 @@ main{
 
 /* about page */
 .profile-container{
+  display: flex;
+  flex-direction: column;
   width: 80%;
   margin: auto;
 }
@@ -510,6 +512,45 @@ button{
   .contact-container p:last-of-type{
     display: inline-block;
     margin-left: .5rem;
+  }
+
+  /* about page */
+  main.profile{
+    padding: 2rem;
+  }
+  .profile-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  .profile-container .headline{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .profile-container .description{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 0;
+    align-self: center;
+    background-color: transparent;
+  }
+  .profile-container .profile-img{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    place-self: center end;
+    margin: .5rem;
+  }
+  .profile-container .headline H1{
+    margin: 0;
   }
 }
 
