@@ -373,6 +373,7 @@ button{
     font-weight: 400;
     font-size: 18px;
   }
+
   /* footer */
   footer p:first-of-type{
     font-size: 13px;
@@ -381,14 +382,18 @@ button{
   footer p:last-of-type{
     font-size: 15px;
   }
+
   /* landing page */
   .contact-container p:last-of-type{
     font-size: 15px;
   }
 
-
   /* general styling */
   /* navbar */
+  .nav-header{
+    padding: .5rem 1.5rem;
+  }
+
   #landingLogo{
     display: block;
   }
@@ -424,13 +429,19 @@ button{
     display: flex;
     justify-content: space-between;
     width: 90%;
+    padding: 0;
   }
 
   /* landing page */
+  main{
+    padding-bottom: 0;
+  }
+
   .web-layout{
     display:grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 2fr 1fr;
+    padding: 3rem 0;
   }
 
   .branding-container{
@@ -462,7 +473,6 @@ button{
     grid-row-start: 2;
     justify-self: start;
     align-self: center;
-
     flex-flow: column nowrap;
     padding-left: 1.5rem;
   }
@@ -471,29 +481,32 @@ button{
     display: none;
   }
 
-
   .project-container{
     display:grid;
     grid-template-columns: 30% 70%;
-    grid-template-rows: 10% 90%;
+    grid-template-rows: 100px auto;
   }
+  
   .project-header{
     grid-column-start: 1;
     grid-row-start: 1;
   }
+  
   .project-container .project-body{
     grid-column-start: 2;
     grid-row-start: 2;
     margin-left: 0;
   }
-
+  
+  .project-body p:last-of-type{
+    margin-bottom: 0;
+  }
 
   .contact-container{
     margin-left: 2rem;
     text-align: left;
     width: 30%;
   }
-
   .contact-container p:last-of-type{
     display: inline-block;
     margin-left: .5rem;
