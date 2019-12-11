@@ -152,7 +152,7 @@ footer p{
 }
 
 .project-container .project-body{
-  margin-left: 2rem;
+  margin-left: 10%;
   padding: 1rem;
 }
 
@@ -191,47 +191,42 @@ footer p{
 }
 
 /* work page */
-main{
-  padding-bottom: 4rem;
-}
-
 .work-container{
   width: 80%;
   margin: auto;
+  padding-bottom: 2rem
 }
 
 .work-container h1{
+  margin-top: 0;
   margin-bottom: 0;
 }
 .work-container p{
   margin-top: 0;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .project-list{
   background-color: rgba(255, 255, 255, 0.6);
-  padding: .5rem 2rem;
+  padding: 1.5rem 1rem 0 1rem;
 }
 
-.item{
-  padding-bottom: 3rem;
+.item1, .item2{
+  padding-bottom: 2rem;
 }
 
 .item .header{
-  display: flex;
-  justify-content: space-between;
+  display:grid;
+  grid-template-columns: 15% 70% 15%;
+  align-items: start;
   padding-bottom: 1rem;
 }
 
-.item .header img:first-of-type{
-  flex-grow:2;
-  margin-left: 1rem;
-  margin-right: 40%;
+.item .header img:last-of-type{
+  justify-self: end;
 }
-.item .header p{
-  align-self: center;
-  margin: 0;
-}
+
+
 .project-list .item .panel a p{
   text-align: right;
   padding-right: 1rem;
@@ -491,7 +486,7 @@ button:hover{
   .project-container{
     display:grid;
     grid-template-columns: 30% 70%;
-    grid-template-rows: 100px auto;
+    /* grid-template-rows: 100px auto; */
   }
   
   .project-header{
@@ -517,6 +512,22 @@ button:hover{
   .contact-container p:last-of-type{
     display: inline-block;
     margin-left: .5rem;
+  }
+  /* work page */
+  .work-container{
+    padding: 4.5rem 2rem;
+  }
+  .work-container h1{
+    padding-left: 1rem;
+  }
+
+  .work-container p:first-of-type{
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+  }
+
+  .work-container .project-list .header p{
+    padding: 0;
   }
 
   /* about page */
