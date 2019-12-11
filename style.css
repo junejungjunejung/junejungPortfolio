@@ -39,12 +39,8 @@ ul.nav-container li a:hover{
 }
 
 /* typography: landing page */
-.branding-container .decription h1{
+.branding-container .description h1{
   color: #5EC1E5;
-}
-
-.branding-container .decription p{
-  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .project-header{
@@ -124,15 +120,16 @@ footer p{
   text-align: center;
 }
 
-.branding-container .decription h1{
+.branding-container .description h1{
   margin-bottom: 4rem;
 }
 
-.branding-container .decription p{
+.branding-container .description p{
   width: 80%;
   margin: auto;
   margin-bottom: 3rem;
   padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .social-container{
@@ -155,7 +152,7 @@ footer p{
 }
 
 .project-container .project-body{
-  margin-left: 2rem;
+  margin-left: 10%;
   padding: 1rem;
 }
 
@@ -189,48 +186,47 @@ footer p{
   width: 80%;
 }
 
-/* work page */
-main{
-  padding-bottom: 4rem;
+.contact-container p:last-of-type{
+  display: none;
 }
 
+/* work page */
 .work-container{
   width: 80%;
   margin: auto;
+  padding-bottom: 2rem
 }
 
 .work-container h1{
+  margin-top: 0;
   margin-bottom: 0;
 }
 .work-container p{
   margin-top: 0;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .project-list{
   background-color: rgba(255, 255, 255, 0.6);
-  padding: .5rem 2rem;
+  padding: 1.5rem 1rem 0 1rem;
 }
 
-.item{
-  padding-bottom: 3rem;
+.item1, .item2{
+  padding-bottom: 2rem;
 }
 
 .item .header{
-  display: flex;
-  justify-content: space-between;
+  display:grid;
+  grid-template-columns: 15% 70% 15%;
+  align-items: start;
   padding-bottom: 1rem;
 }
 
-.item .header img:first-of-type{
-  flex-grow:2;
-  margin-left: 1rem;
-  margin-right: 40%;
+.item .header img:last-of-type{
+  justify-self: end;
 }
-.item .header p{
-  align-self: center;
-  margin: 0;
-}
+
+
 .project-list .item .panel a p{
   text-align: right;
   padding-right: 1rem;
@@ -246,7 +242,7 @@ main{
 }
 
 /* work: carousel */
-.carousel-item1, .carousel-item2, .carousel-item3,{
+.carousel-item1, .carousel-item2, .carousel-item3{
   display: none;
 }
 
@@ -274,6 +270,8 @@ main{
 
 /* about page */
 .profile-container{
+  display: flex;
+  flex-direction: column;
   width: 80%;
   margin: auto;
 }
@@ -326,12 +324,17 @@ textarea{
 }
 
 button{
-  border: 1px solid #5EC1E5;
+  border: 2px solid #5EC1E5;
   background-color: #5EC1E5;
   border-radius: 5px;
   height: 50px;
-  width: 80%;
+  width: calc(80% + 2rem + 2px);
   margin: auto;
+}
+
+button:hover{
+  border: 2px solid #002B7F;
+  color:#002B7F;
 }
 
 .other-contact{
@@ -364,8 +367,212 @@ button{
 
 /* web view styling --------------- */
 @media screen and (min-width: 700px) {
-  .nav-item a{
+  /* typhography */
+  /* navbar */
+  #navLinks li.nav-item a{
+    font-family: 'Roboto', sans-serif;
+    color: #002B7F;
+    font-weight: 400;
     font-size: 18px;
+  }
+
+  /* footer */
+  footer p:first-of-type{
+    font-size: 13px;
+    margin: auto 0;
+  }
+  footer p:last-of-type{
+    font-size: 15px;
+  }
+
+  /* landing page */
+  .contact-container p:last-of-type{
+    font-size: 15px;
+  }
+
+  /* general styling */
+  /* navbar */
+  .nav-header{
+    padding: .5rem 1.5rem;
+  }
+
+  #landingLogo{
+    display: block;
+  }
+
+  .nav-container{
+    display: inherit;
+  }
+
+  .hamburger{
+    display: none;
+  }
+
+  #home{
+    display: none;
+  }
+
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-item{
+    margin: auto;
+    padding-right: 2rem;
+  }
+
+  .nav-item a:hover{
+    border-bottom: solid 2px #002B7F;
+  }
+
+  /* footer */
+  footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 0;
+  }
+
+  /* landing page */
+  main{
+    padding-bottom: 0;
+  }
+
+  .web-layout{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    padding: 3rem 0;
+  }
+
+  .branding-container{
+    margin: 0;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    justify-self: start;
+    align-self: center;
+    text-align: left;
+  }
+
+  .description{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: .5rem;
+  }
+
+  .branding-container .description h1{
+    margin: 0;
+  }
+
+  .branding-container .description p{
+    margin: .75rem 0;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .social-container{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    justify-self: start;
+    align-self: center;
+    flex-flow: column nowrap;
+    padding-left: 1.5rem;
+  }
+
+  .brand-logo{
+    display: none;
+  }
+
+  .project-container{
+    display:grid;
+    grid-template-columns: 30% 70%;
+    /* grid-template-rows: 100px auto; */
+  }
+  
+  .project-header{
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+  
+  .project-container .project-body{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin-left: 0;
+  }
+  
+  .project-body p:last-of-type{
+    margin-bottom: 0;
+  }
+
+  .contact-container{
+    margin-left: 2rem;
+    text-align: left;
+    width: 30%;
+  }
+  .contact-container p:last-of-type{
+    display: inline-block;
+    margin-left: .5rem;
+  }
+  /* work page */
+  .work-container{
+    padding: 4.5rem 2rem;
+  }
+  .work-container h1{
+    padding-left: 1rem;
+  }
+
+  .work-container p:first-of-type{
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+  }
+
+  .work-container .project-list .header p{
+    padding: 0;
+  }
+
+  /* about page */
+  main.profile{
+    padding: 2rem;
+  }
+  .profile-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  .profile-container .headline{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .profile-container .description{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 0;
+    align-self: center;
+    background-color: transparent;
+  }
+  .profile-container .profile-img{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    place-self: center end;
+    margin: .5rem;
+  }
+  .profile-container .headline H1{
+    margin: 0;
+  }
+
+  /* contact page */
+  #frmContact{
+    margin: auto;
+    width:50%;
   }
 }
 

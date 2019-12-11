@@ -1,4 +1,4 @@
-// hamburger menu
+// hamburger menu on mobile view
 function menubar() {
   var x = document.getElementById("navLinks");
   if (x.style.display === "block") {
