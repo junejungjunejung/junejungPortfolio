@@ -102,6 +102,10 @@ body{
   display: none;
 }
 
+.nav-container .nav-item{
+  margin: 3rem 0;
+}
+
 /* footer */
 footer{
   width: 80%;
@@ -417,7 +421,7 @@ button:hover{
     justify-content: space-between;
   }
 
-  .nav-item{
+  .nav-container .nav-item{
     margin: auto;
     padding-right: 2rem;
   }
