@@ -45,10 +45,12 @@
       <div class="form-container">
         <h1>Get in touch!</h2>
 
-        <form id="frmContact" action="https://formspree.io/costalgia@gmail.com" method="POST">
+        <form id="frmContact" action="https://formspree.io/junejungjunejung@gmail.com" method="POST">
             <input type="text" name="name" id="name" placeholder="Name" required><br>
-            <input type="text" name="email" id="email" placeholder="Email" required><br>
+            <input type="email" name="_replyto" id="email" placeholder="Email" required><br>
             <textarea name="message" id="message" rows="8" placeholder="Message" required></textarea><br>
+            <input type="hidden" name="_subject" value="Website contact" />
+            <input type="text" name="_gotcha" style="display:none" />
             <button type="submit" id="btnSubmit" value="Send">Send Message</button>
         </form>
 

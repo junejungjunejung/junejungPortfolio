@@ -112,3 +112,4 @@ function showSlides3(n) {
   slides[slideIndex3-1].style.display = "block";
   dots[slideIndex3-1].className += " active";
 }
+
