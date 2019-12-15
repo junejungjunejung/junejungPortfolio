@@ -369,6 +369,46 @@ button:hover{
   margin-left: .5rem;
 }
 
+/* medium view styling --------------- */
+@media screen and (min-width: 1200px) {
+  /* about page */
+  main.profile{
+    padding: 2rem;
+  }
+  .profile-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    padding: 1rem;
+  }
+  .profile-container .headline{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .profile-container .description{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 0;
+    align-self: center;
+  }
+  .profile-container .profile-img{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    place-self: center end;
+    margin: .5rem;
+  }
+  .profile-container .headline H1{
+    margin: 0;
+  }
+}
 /* web view styling --------------- */
 @media screen and (min-width: 700px) {
   /* typhography */
@@ -405,7 +445,8 @@ button:hover{
   }
 
   .nav-container{
-    display: inherit;
+    display: flex;
+    flex-direction: row;
   }
 
   .hamburger{
@@ -490,7 +531,6 @@ button:hover{
   .project-container{
     display:grid;
     grid-template-columns: 30% 70%;
-    /* grid-template-rows: 100px auto; */
   }
   
   .project-header{
@@ -534,43 +574,25 @@ button:hover{
     padding: 0;
   }
 
-  /* about page */
-  main.profile{
-    padding: 2rem;
-  }
-  .profile-container{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 10px;
-    padding: 1rem;
-  }
-  .profile-container .headline{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-  }
-  .profile-container .description{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
+  .project-list .panel p, .project-list .panel h2{
     padding: 0;
-    align-self: center;
+    margin: auto;
+    max-width: 900px;
+  }
+
+  .project-list .panel p:last-of-type{
+    padding-bottom: 1rem;
+  }
+
+  .carousel-container{
+    padding: 1rem 0;
+    margin: auto;
+    max-width: 900px;
+  }
+
+  /* about page */
+  .profile-container .description{
     background-color: transparent;
-  }
-  .profile-container .profile-img{
-    grid-column-start: 3;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    place-self: center end;
-    margin: .5rem;
-  }
-  .profile-container .headline H1{
-    margin: 0;
   }
 
   /* contact page */
@@ -579,6 +601,7 @@ button:hover{
     width:50%;
   }
 }
+
 
 /* background image --------------- */
 main {
