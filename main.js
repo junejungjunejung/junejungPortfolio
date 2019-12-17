@@ -11,10 +11,12 @@ function menubar() {
 // showing logo when hamburger active on landing page
 function landingLogo() {
   var x = document.getElementById("landingLogo");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+  if (x.classList.contains("show")) {
+    x.classList.remove("show");
+    x.classList.add("hide");
   } else {
-    x.style.display = "block";
+    x.classList.remove("hide");
+    x.classList.add("show");
   }
 }
 

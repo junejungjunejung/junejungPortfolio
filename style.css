@@ -79,7 +79,11 @@ body{
 }
 
 /* navbar */
-#landingLogo{
+.show {
+  display: block;
+}
+
+.hide {
   display: none;
 }
 
@@ -96,10 +100,6 @@ body{
 
 .logo-container{
   height: 57px;
-}
-
-.nav-container{
-  display: none;
 }
 
 .nav-container .nav-item{
@@ -241,7 +241,7 @@ footer p{
   display: none;
 }
 
-.active:first-child{
+.accordion.active:first-child{
  background-color: transparent;
 }
 
@@ -441,11 +441,11 @@ button:hover{
   }
 
   #landingLogo{
-    display: block;
+    display: block !important;
   }
 
   .nav-container{
-    display: flex;
+    display: flex !important;
     flex-direction: row;
   }
 
@@ -572,6 +572,10 @@ button:hover{
 
   .work-container .project-list .header p{
     padding: 0;
+  }
+
+  .item .header{
+    grid-template-columns: 5% auto 5%;
   }
 
   .project-list .panel p, .project-list .panel h2{
