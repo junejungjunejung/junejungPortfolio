@@ -8,6 +8,28 @@ function menubar() {
   }
 }
 
+//hamburger icon toggle
+function toggleIcon(){
+  var x = document.getElementById("hamburger").src;
+
+  if (x.indexOf('times.svg')!=-1) {
+    document.getElementById("hamburger").src = 'asset/hamburger.svg';
+  } else {
+    document.getElementById("hamburger").src = 'asset/times.svg';
+  }
+}
+
+function submenuIcon(){
+  var x = document.getElementById("submenu").src;
+
+  if (x.indexOf('times.svg')!=-1) {
+    document.getElementById("submenu").src = '../asset/hamburger.svg';
+  } else {
+    document.getElementById("submenu").src = '../asset/times.svg';
+  }
+}
+
+
 // showing logo when hamburger active on landing page
 function landingLogo() {
   var x = document.getElementById("landingLogo");
