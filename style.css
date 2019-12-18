@@ -74,8 +74,18 @@ button{
 }
 
 /* general styling --------------- */
+
 body{
   margin: 0;
+}
+.work-page, .about-page, .contact-page {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+.work-page main, .about-page main, .contact-page main{
+  flex: 1 0 auto;
 }
 
 /* navbar */
@@ -198,7 +208,7 @@ footer p{
 .work-container{
   width: 80%;
   margin: auto;
-  padding-bottom: 2rem
+  padding-bottom: 2rem;
 }
 
 .work-container h1{

@@ -1,4 +1,4 @@
-// hamburger menu on mobile view
+// menu on mobile view
 function menubar() {
   var x = document.getElementById("navLinks");
   if (x.style.display === "block") {
@@ -8,7 +8,7 @@ function menubar() {
   }
 }
 
-//hamburger icon toggle
+// hamburger icon toggle
 function toggleIcon(){
   var x = document.getElementById("hamburger").src;
 
@@ -62,6 +62,16 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+// accordion icon toggle
+function accordionIcon(){
+  var x = document.getElementById("accordionIcon").src;
+
+  if (x.indexOf('plus.svg')!=-1) {
+    document.getElementById("accordionIcon").src = '../asset/minus.svg';
+  } else {
+    document.getElementById("accordionIcon").src = '../asset/plus.svg';
+  }
+}
 
 // carousel 1
 var slideIndex = 0;
