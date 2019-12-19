@@ -63,13 +63,13 @@ for (i = 0; i < acc.length; i++) {
 }
 
 // accordion icon toggle
-function accordionIcon(){
-  var x = document.getElementById("accordionIcon").src;
+function accordionIcon(imageAcoordionIcon){
+  var x = document.getElementById(imageAcoordionIcon).src;
 
   if (x.indexOf('plus.svg')!=-1) {
-    document.getElementById("accordionIcon").src = '../asset/minus.svg';
+    document.getElementById(imageAcoordionIcon).src = '../asset/minus.svg';
   } else {
-    document.getElementById("accordionIcon").src = '../asset/plus.svg';
+    document.getElementById(imageAcoordionIcon).src = '../asset/plus.svg';
   }
 }
 
@@ -137,3 +137,4 @@ function showSlides3() {
   setTimeout(showSlides3, 2000); // Change image every 2 seconds
 }
 
+//css animation
