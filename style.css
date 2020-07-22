@@ -533,6 +533,10 @@ button:hover{
     text-align: left;
   }
 
+  .social-container .social-item a{
+    display: flex;
+  }
+
   .description{
     background-color: rgba(255, 255, 255, 0.6);
     padding: .5rem;
